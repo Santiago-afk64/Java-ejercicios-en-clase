@@ -6,14 +6,14 @@
   trimestres = int(input("Ingrese numero de trimestres")
   porcentaje_abono = float(input ("Ingrese el porcentaje de abono:"))
   
-    monto_total <- prestamo * (1 + tasa)^trimestres
+  monto_total = prestamo * (1 + tasa)^trimestres
 
-    valor_abono <- monto_total * (porcentaje_abono / 100)
+  valor_abono = monto_total * (porcentaje_abono / 100)
 
-    monto_final <- monto_total - valor_abono
+  monto_final = monto_total - valor_abono
 
-    Escribir "Monto antes del abono: ", monto_total
-    Escribir "Valor del abono: ", valor_abono
-    Escribir "Monto final a cancelar: ", monto_final
+  Print("Monto antes del abono:", monto_total)
+  Print("Valor del abono:", valor_abono)
+  Print("Monto final a cancelar:", monto_final)
 
 FinAlgoritmo
